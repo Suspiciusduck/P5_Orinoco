@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="utf-8">
+	<link rel="stylesheet" href="../style.css"/>
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+  	<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.13.0/css/all.min.css">
+	<title>Orinoco</title>
+</head>
+<body>
+	<header>
+		
+	</header>
+
+	<nav class="nav">
+      <a href="../index.html" class="link">
+        <i class="fas fa-shopping-cart">Orinoco</i>
+        
+      </a>
+      <a href="../pages/cart.html" class="link">
+        <i class="fas fa-shopping-basket">Panier</i>
+        
+      </a>
+    </nav>
+    <h1 class="titre">Bienvenue sur la boutique en ligne Orinoco !</h1>
+   <section class="section">
+	<div class="text">
+    	<img src="../../images/vcam_1.jpg"/>
+    		<h3><a class="nom" href="../pages/products.html">Zurss 50S</a></h3>
+    			<div class="description">Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.</div>
+    				<a class="prix" href="../pages/products.html">49900 euros</a>
+                </div>
+ 
+   </section>               
+   <div class="lentilles"> 
+    <p>
+<form method="post" action="traitement.php">
+   <p>
+       <label for="pays"></label><br />
+       <select name="pays" id="pays">
+           <option value="france">50mm 1.8</option>
+           <option value="espagne">60mm 2.8</option>
+       </select>
+   </p>
+</form>
+   
+
+
+    <p>
+    <label for="quantity"></label>
+            <input type="number" id="quantity" name="quantity" min="1" max="5"> 
+    </p>
+          <button onclick="window.location.href = '../pages/cart.html';">Validez</button>
+    </div>      
+</body>
+<footer>
+	
+</footer>
+</html>
